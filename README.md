@@ -43,6 +43,8 @@ var options = {
     share: true, // default is false
     closeButton: false, // default is true
     copyToReference: true // default is false
+    successCallback: function,
+    errorCallback: function
 };
 
 PhotoViewer.show('http://my_site.com/my_image.jpg', 'Optional Title', options);
