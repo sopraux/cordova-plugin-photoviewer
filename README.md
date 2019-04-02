@@ -1,4 +1,4 @@
-# Photo Viewer  
+# Photo Viewer
 > This plugin is intended to show a picture from an URL into a Photo Viewer with zoom features.
 
 ## How to Install
@@ -50,18 +50,18 @@ var options = {
 PhotoViewer.show('http://my_site.com/my_image.jpg', 'Optional Title', options);
 ```
 
-### Versions  
-(1.0.2) Removed Podfile and the dependency  
+### Versions
+(1.0.2) Removed Podfile and the dependency
 (1.1.0)
-- Removing project dependencies.  
-- Moving to Gradle  
-- Adding Square's Picasso as Image Loader  
+- Removing project dependencies.
+- Moving to Gradle
+- Adding Square's Picasso as Image Loader
 - New Optional Title
 - Share button and title bar
 - Automatic close on error.
 - Support for content:// Uris from Cordova
 - Replaced old namespace
-- Published to NPM  
+- Published to NPM
 
 (1.1.1)
 - Fix for sharing due to online restriction
@@ -79,13 +79,13 @@ PhotoViewer.show('http://my_site.com/my_image.jpg', 'Optional Title', options);
 (1.1.5)
 - Option to hide and show share button on Android
 
-(1.1.7)  
+(1.1.7)
 - Fix OOM issues on Android
 
-(1.1.9/10)  
+(1.1.9/10)
 - Fix how image is shown on Android
 
-(1.1.17)  
+(1.1.17)
 - Additional options added for iOS
 - Fix share issue with SDK version 24 or above on Android
 
@@ -102,3 +102,6 @@ PhotoViewer.show('http://my_site.com/my_image.jpg', 'Optional Title', options);
 
 (1.2.0)
 - Adding TS files from next version to support TypeScript projects
+
+(1.2.1)
+- Native fixes on Android platform
