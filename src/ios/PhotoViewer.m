@@ -224,7 +224,7 @@
         [closeBtn setTitle:@"✕" forState:UIControlStateNormal];
         closeBtn.titleLabel.font = [UIFont systemFontOfSize: 32];
         [closeBtn setTitleColor:[UIColor colorWithRed:255/255.0 green:255/255.0 blue:255/255.0 alpha:0.6] forState:UIControlStateNormal];
-        [closeBtn setFrame:CGRectMake(viewWidth - 50, 20, 50, 50)];
+        [closeBtn setFrame:CGRectMake(viewWidth - 50, 40, 50, 50)];
         [closeBtn setBackgroundColor:[UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.6]];
         [closeBtn addTarget:self action:@selector(closeButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
         [self.viewController.view addSubview:closeBtn];
@@ -263,7 +263,7 @@
         [fullView setFrame:CGRectMake(0, 0, viewWidth, viewHeight)];
         [imageView setFrame:CGRectMake(0, 0, viewWidth, viewHeight)];
         fullView.contentSize = imageView.frame.size;
-        [closeBtn setFrame:CGRectMake(viewWidth - 50, 0, 50, 50)];
+        [closeBtn setFrame:CGRectMake(viewWidth - 50, 40, 50, 50)];
     }
 }
 
